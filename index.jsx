@@ -1,8 +1,5 @@
-function createElement(...args) {
-  console.log(args);
-}
+import React from "./react";
 
-/** @jsx createElement */
+console.log("index.js run");
 
-let el = <div></div>;
-console.log(el);
+React.render(<div id="div">Text</div>, document.getElementById("root"));
