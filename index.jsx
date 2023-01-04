@@ -1,5 +1,4 @@
-import React from "./react";
+import React from "./react/react";
+import App from "./App.jsx";
 
-console.log("index.js run");
-
-React.render(<div id="div">Text</div>, document.getElementById("root"));
+React.render(<App />, document.getElementById("root"));
